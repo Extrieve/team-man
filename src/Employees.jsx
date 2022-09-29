@@ -24,7 +24,7 @@ const Employees = () => {
                         const {id, name, age, position, image} = employee;
                         return(
                             <div className="col-md-4" key={id}>
-                                <div className="card mb-4">
+                                <div className="card mb-4" style={{cursor: "pointer"}}>
                                     <div className="card-body">
                                         <h5 className="card-title">{name}</h5>
                                         <h6 className="card-subtitle mb-2 text-muted">{position}</h6>
